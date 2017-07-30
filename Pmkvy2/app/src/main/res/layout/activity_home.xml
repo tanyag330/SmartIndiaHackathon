@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="smartindiahackathon.pmkvy.Home"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/slider"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="match_parent">
+                
+            </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_radio_button_checked_black_24dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_radio_button_unchecked_black_24dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_radio_button_unchecked_black_24dp"
+            android:elevation="1dp" />
+
+        </LinearLayout>
+        <TextView
+            android:paddingTop="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Training And Assessment"
+            android:textSize="30dp"
+            android:fontFamily="serif"
+            android:textColor="#ff9800"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="21dp"
+            android:text="Fees are completely paid by the govt."
+            android:fontFamily="serif"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            >
+
+            <TextView
+
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:textAlignment="center"
+                android:paddingTop="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="24sp"
+                android:text="Start"
+                android:textColor="@android:color/white"
+                android:padding="5dip"
+                android:background="@drawable/rounded_orange"
+                android:fontFamily="serif"
+                />
+
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+
+</RelativeLayout>
